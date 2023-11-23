@@ -1,0 +1,55 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* One-third and two-thirds */
+    grid-gap: 10px; /* Add some gap between items */
+    grid-template-rows: auto; /* Auto-sized row, adjust as needed */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 2fr; /* Three rows with specified sizes */
+    /* Additional styling for the grid container goes here */
+}
+
+.grid-item {
+    background-color: darkgray;
+    display:block;
+    padding: 20px;
+    border: 1px groove black;
+    margin-top: 10px;
+}
+
+
+.tag-box {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    display: block;
+    background-color: #14213D;
+    color: white;
+}
+
+.tag-input {
+    border: 4px solid #FCA311;
+    outline: none;
+    font-size: 14px;
+    padding: 20px;
+    margin: 20px;
+    width: 50%;
+}
+
+.tag, .pre-tag {
+    display: inline-block;
+    background-color: #FCA311;
+    padding: 2px 5px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #14213D
+}
+
+.tag-remove {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
